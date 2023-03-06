@@ -1,0 +1,9 @@
+#navbar {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.end {
+  display: flex;
+  justify-content: flex-end !important;
+  color: orange;
+}

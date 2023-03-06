@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "projectName": "ToWatchIt",
+        "image": "https://raw.githubusercontent.com/thomasptharakan/ToWatchIt/main/images/HomeScreen.png",
+        "description": "The main functionality of our application is adding the desired movies to your movie list and watch them in your free time. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code found in script.js. The target audience of the application is the movie lovers.",
+        "gitHub": "https://github.com/thomasptharakan/ToWatchIt",
+        "livePage": "https://thomasptharakan.github.io/ToWatchIt/",
+        "technologies": {
+            "html": "fa-brands fa-html5", 
+            "css": "fa-brands fa-css3-alt", 
+            "javascript": "fa-brands fa-square-js", 
+            "bootstrap": "fa-brands fa-bootstrap"
+        }
+    },
+    {
+        "id": 2,
+        "projectName": "Team Profile Generator",
+        "image": "https://raw.githubusercontent.com/wmohammad83/teamProfileGenerator/main/assets/images/output.png",
+        "description": "The aim of this project was to use nodejs and inquirer to dynamically create an employee HTML page from a users input. In addition to this jest was used to test the application to make sure all the logic works as expected.",
+        "gitHub": "https://github.com/wmohammad83/teamProfileGenerator",
+        "livePage": ""
+    },
+    {
+        "id": 3,
+        "projectName": "Weather Dashboard",
+        "image": "https://raw.githubusercontent.com/wmohammad83/weather-dashboard/main/assets/images/weatherDashboard.png",
+        "description": "The aim of this task is to create a weather dashboard which retrives data from the open weather map api. It will show the weather for today and also the weather for the next 5 days. With each city search a new button will be dynamically created and saved into local storage.",
+        "gitHub": "https://github.com/wmohammad83/weather-dashboard",
+        "livePage": "https://wmohammad83.github.io/weather-dashboard/"
+    },
+    {
+        "id": 4,
+        "projectName": "Work Day Scheduler",
+        "image": "https://raw.githubusercontent.com/wmohammad83/work-day-scheduler/main/assets/images/scheduler.png",
+        "description": "The aim of this task is to create a day scheduler that will allow a user to save events for each hour of the day. This will all be achieved by dynamically updating the HTML and CSS using jQuery. Moment.js will also be used to set the current day and time.",
+        "gitHub": "https://github.com/wmohammad83/work-day-scheduler",
+        "livePage": "https://wmohammad83.github.io/work-day-scheduler/"
+    },
+    {
+        "id": 5,
+        "projectName": "Code Quiz App",
+        "image": "https://raw.githubusercontent.com/wmohammad83/code-quiz/main/assets/images/mockup.png",
+        "description": "The purpose of this tas was to create a working quiz with a timer which may drop down if the chosen answer was incorrect. This was done using a selection of questions in a javascript file and a javascript logic file. The results would then be stored in local storage within the browser with an option to clear the storage.",
+        "gitHub": "https://github.com/wmohammad83/code-quiz",
+        "livePage": "https://wmohammad83.github.io/code-quiz/"
+    },
+    {
+        "id": 6,
+        "projectName": "Password Generator",
+        "image": "https://raw.githubusercontent.com/wmohammad83/password-generator/main/assets/mockup.png",
+        "description": "The aim of this task was to generate the JavaScript logic to allow a user to pick out options for password generation. The following were the options avaialble for the user...",
+        "gitHub": "https://github.com/wmohammad83/password-generator",
+        "livePage": "https://wmohammad83.github.io/password-generator/"
+    },
+    {
+        "id": 7,
+        "projectName": "Console Finances",
+        "image": "https://raw.githubusercontent.com/wmohammad83/Console-Finances/main/assets/browser.png",
+        "description": "The aim of this task was to use the JavaScript skills I whave picked up and put them into a real world scanerio. I was given some financial dataset of a company and my task was to display the data in a meaningful way displaying the total number of months, total amount earned as well as averages and greates profits/losses.",
+        "gitHub": "https://github.com/wmohammad83/Console-Finances",
+        "livePage": "https://wmohammad83.github.io/Console-Finances/"
+    }
+]
