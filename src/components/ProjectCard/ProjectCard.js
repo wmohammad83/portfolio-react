@@ -2,34 +2,38 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./ProjectCard.css"
 
-function ProjectCard({ name, description, image, livePage, gitHub }) {
+import { FaGithubSquare, FaRegWindowMaximize, FaHtml5 } from "react-icons/fa";
+
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
+function ProjectCard({ name, description, image, livePage, gitHub, technologies }) {
   return (
-    <div class="card mb-3 shadow">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src={image} class="img-fluid rounded shadow m-2 border" alt="project screenshot" />
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">{name}</h5>
-            <p class="card-text">{description}</p>
-            <Link
+    <div>
+      <Row>
+        <Col sm={12} md={6} className="">
+        <div className="mr-4">
+           <img src={image} class="img-fluid rounded shadow m-2" alt="project screenshot" />
+         </div>
+        </Col>
+        <Col>
+        <h4 class="display-6 txt">{name}</h4>
+        <p class="">{description}</p>
+
+        <Link
               to={livePage}
               class="btn mx-2 card-btn"
               style={
                 livePage ? { display: "inline-block" } : { display: "none" }
               }
             >
-              <i class="fa-regular fa-browsers"></i>
-              Live Page
+             <FaRegWindowMaximize/> Live Page
             </Link>
             <Link to={gitHub} class="btn mx-2 card-btn">
-              <i class="fa-regular fa-browsers"></i>
-              GitHub Repo
+              < FaGithubSquare /> GitHub Repo
             </Link>
-          </div>
-        </div>
-      </div>
+        </Col>
+      </Row>
     </div>
   );
 }

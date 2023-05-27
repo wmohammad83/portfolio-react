@@ -9,9 +9,9 @@ function Hero() {
     <div className="hero">
       <div className="container">
         <div className="row">
-          <div className="col-sm-12 col-md-6" id="hero">
-            <h1 className="display-4 font-weight-bold">Hi I'm Waseem</h1>
-            <p className="lead">Web Developer and IT Manager</p>
+          <div className="col-sm-12 col-md-12 col-lg-6" id="hero">
+            <h1 className="display-1 font-weight-bold">Hi I'm Waseem</h1>
+            <p className="lead">A Front End Web Developer and ICT Cluster Manager</p>
             <hr />
             <div class="icons mb-4">
               <Link to="mailto:wmohammad83@icloud.com" className="">

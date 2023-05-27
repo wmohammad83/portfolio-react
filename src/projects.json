@@ -7,10 +7,10 @@
         "gitHub": "https://github.com/thomasptharakan/ToWatchIt",
         "livePage": "https://thomasptharakan.github.io/ToWatchIt/",
         "technologies": {
-            "html": "fa-brands fa-html5", 
-            "css": "fa-brands fa-css3-alt", 
+            "html": "FaHtml5", 
+            "css": "FaCss3Alt", 
             "javascript": "fa-brands fa-square-js", 
-            "bootstrap": "fa-brands fa-bootstrap"
+            "bootstrap": "FaBootstrap"
         }
     },
     {

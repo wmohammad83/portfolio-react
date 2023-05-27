@@ -13,7 +13,7 @@ function NavBar() {
     <Navbar id="navbar" expand="lg" sticky="top" variant="dark">
       <Container>
         <Navbar.Brand as={Link} to="/" className="nav">
-          iMaa
+          iMaa Soluition
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

@@ -1,31 +1,24 @@
 /* https://images.unsplash.com/photo-1661956600684-97d3a4320e45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80 */
 
 .hero {
-  height: 95vh;
-  background-color: gray;
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-    url(https://images.unsplash.com/photo-1661956600684-97d3a4320e45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+  height: 90vh;
 }
 
 .hero h1 {
-  font-size: 80px;
+  /* font-size: 80px; */
+  color: rgb(48, 162, 255);
 }
 
 .icons {
   display: flex;
   font-size: 40px;
-  /* justify-content: center; */
 }
 .icons a {
-  color: black;
+  color: rgb(48, 162, 255);
   margin: 10px;
 }
 .icons a:hover {
-  color: white;
+  color: rgb(0, 126, 230);
 }
 
 #hero {
@@ -35,11 +28,12 @@
 
 .header-btn {
   width: 175px;
-  background-color: black !important;
-  color: white !important;
+  background-color: rgb(48, 162, 255) !important;
+  color: rgb(230, 244, 255) !important;
+  border: solid 1px rgb(48, 162, 255) !important;
 }
 
 .header-btn:hover {
-  background-color: white !important;
-  color: black !important;
+  background-color: rgb(0, 126, 230) !important;
+  color: rgb(230, 244, 255) !important;
 }

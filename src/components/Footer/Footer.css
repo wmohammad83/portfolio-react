@@ -2,7 +2,7 @@
 footer {
     height: 200px;
     padding: 40px;
-    background-color: #393E46;
+    background-color: rgb(48, 162, 255);
   }
   
   footer p {
@@ -16,6 +16,6 @@ footer {
   }
   
   footer a:hover {
-    color: #929AAB;
-    box-shadow: 0px 0px 10px white;
+    color: rgb(179, 222, 255);
+    /* box-shadow: 0px 0px 10px white; */
   }

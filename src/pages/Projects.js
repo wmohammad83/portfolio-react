@@ -7,8 +7,8 @@ function Projects() {
   const [projects, setProjects] = useState(portfolio);
   return (
     <div>
-      <div className="container">
-        <h2 className="my-4">Projects</h2>
+      <div className="container py-5">
+        <h2 className="mb-4 txt display-6">Projects</h2>
         <div className="row">
           <div className="col">
             {projects.map((project) => {
@@ -20,6 +20,7 @@ function Projects() {
                   description={project.description}
                   livePage={project.livePage}
                   gitHub={project.gitHub}
+                  technologies={project.technologies}
                 />
               );
             })}

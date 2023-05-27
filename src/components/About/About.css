@@ -1,4 +1,12 @@
 .profilePic {
-    width: 50%;
-    border-radius:250px
+    width: 75%;
+    border-radius:25px
+}
+
+.bg {
+    background-color: rgb(230, 244, 255);
+}
+
+.txt {
+    color: rgb(51, 167, 255);
 }

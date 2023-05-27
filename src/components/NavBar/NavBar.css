@@ -1,9 +1,13 @@
 #navbar {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(48, 162, 255, 0.9)
 }
 
 .end {
   display: flex;
   justify-content: flex-end !important;
   color: orange;
+}
+
+.textHeading {
+  color: rgb(48, 162, 255)
 }

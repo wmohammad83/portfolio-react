@@ -4,10 +4,14 @@ import "./About.css";
 
 function About() {
   return (
-    <div className="container mt-4">
-      <h2>About</h2>
+    <div className="bg">
+    <div className="container py-5">
       <div className="row">
-        <div className="col-sm-12 col-md-12">
+        {/* <div className="col-sm-12 col-md-4">
+          <img className="profilePic " src={Pic} alt="Profile Picture" />
+        </div> */}
+        <div className="col-sm-12 txt">
+        <h2 className="mb-4 txt display-6">A little About Me</h2>
           <p>
             Hi I’m waseem an aspiring developer in the making, I started my
             career as a dispensing optician in 2007 where I developed an
@@ -32,6 +36,7 @@ function About() {
           <img className="profilePic " src={Pic} alt="Profile Picture" />
         </div> */}
       </div>
+    </div>
     </div>
   );
 }

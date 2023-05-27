@@ -15,8 +15,8 @@ function Contact() {
               Please see my details below or you can fill out the form on the
               right.
             </p>
-            <i class="fa-regular fa-envelope"></i>{" "}
-            <Link to="mailto:wmohammad83@icloud.com">wmohammad@icloud.com</Link>
+            <i class="fa-regular fa-envelope txt fs-4 "></i>{" "}
+            <Link className="fs-4 text-decoration-none txt" to="mailto:wmohammad83@icloud.com">wmohammad@icloud.com</Link>
           </div>
           <div className="col-sm-12 col-md-6">
             <ContactForm />
